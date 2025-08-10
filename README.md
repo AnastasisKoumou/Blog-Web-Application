@@ -40,16 +40,17 @@ The app will start on --> http://localhost:3000
 - **Templating Engine:** [EJS](https://ejs.co/)  
 - **Frontend:** HTML5, CSS3 (Responsive Design)  
 
-**Images of the Blog**
+## Images of the Blog
 
-**Main Page**
-<img width="1360" height="638" alt="index_page" src="https://github.com/user-attachments/assets/250cefe6-f298-476a-8dbe-fbf1e3fdfb68" />
+### Main Page
+![Main Page](https://github.com/user-attachments/assets/250cefe6-f298-476a-8dbe-fbf1e3fdfb68)
 
-**Create Articles Form**
-<img width="557" height="491" alt="create_page" src="https://github.com/user-attachments/assets/f9d60884-5dc8-4dd4-80ed-eec376ce22c5" />
+### Create Articles Form
+![Create Articles Form](https://github.com/user-attachments/assets/f9d60884-5dc8-4dd4-80ed-eec376ce22c5)
 
-""View Articles Page**
-<img width="1312" height="619" alt="view_page" src="https://github.com/user-attachments/assets/79719649-55be-43ca-b7dc-ba0bc6d9b84e" />
+### View Articles Page
+![View Articles Page](https://github.com/user-attachments/assets/79719649-55be-43ca-b7dc-ba0bc6d9b84e)
 
-**Edit Page**
-<img width="1320" height="628" alt="edit_page" src="https://github.com/user-attachments/assets/a2bebfbc-2548-4768-8d2d-af1a32eefc7f" />
+### Edit Page
+![Edit Page](https://github.com/user-attachments/assets/a2bebfbc-2548-4768-8d2d-af1a32eefc7f)
+
