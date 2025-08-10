@@ -1,12 +1,6 @@
 # Blog-Web-Application
 A simple Node.js and Express-based CRUD application for managing articles. Features include creating, viewing, updating, and deleting articles with responsive front-end design for all device screens.
 
-# 📰 Article Management App  
-
-A simple **Node.js** and **Express** CRUD application for managing articles.  
-You can create, view, edit, and delete articles.  
-The app includes a **responsive front-end design** that adapts to mobile devices.  
-
 ---
 
 ## ✨ Features  
