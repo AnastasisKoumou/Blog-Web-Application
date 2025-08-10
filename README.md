@@ -24,7 +24,6 @@ The app includes a **responsive front-end design** that adapts to mobile devices
    ```bash
    git clone https://github.com/AnastasisKoumou/Blog-Web-Application.git
    cd Blog-Web-Application
-   Install dependencies
 2. **Install dependencies**
    ```bash
    npm install
