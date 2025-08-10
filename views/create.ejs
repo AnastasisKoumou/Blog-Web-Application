@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+
+<link rel="stylesheet" href="/create.css">
+
+<form action="/" method="post" class="article-form">
+  <label for="title">Title</label>
+  <input type="text" id="title" name="title" required>
+
+  <label for="author">Author</label>
+  <input type="text" id="author" name="author" required>
+
+  <label for="article">Article</label>
+  <textarea name="article" id="article" placeholder="Blog content..." required></textarea>
+
+  <input type="submit" value="Post">
+</form>
+
+<%- include('partials/footer') %>

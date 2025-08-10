@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.article-form {
+    max-width: 500px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.article-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.article-form input[type="text"],
+.article-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.article-form textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.article-form input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.article-form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* ✅ Responsive adjustments */
+@media (max-width: 600px) {
+    .article-form {
+        margin: 20px;
+        padding: 15px;
+    }
+    .article-form input[type="text"],
+    .article-form textarea {
+        font-size: 0.95rem;
+        padding: 8px;
+    }
+    .article-form input[type="submit"] {
+        width: 100%;
+        font-size: 1rem;
+    }
+}

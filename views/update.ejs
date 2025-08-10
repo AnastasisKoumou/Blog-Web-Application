@@ -1,0 +1,18 @@
+<%- include('partials/header') %>
+
+<link rel="stylesheet" href="/create.css">
+
+<form action="/update/<%= article.id %>" method="post" class="article-form">
+  <label for="title">Update Title</label>
+  <input type="text" id="title" name="title" value="<%= article.title %>" required>
+
+  <label for="author">Update Author</label>
+  <input type="text" id="author" name="author" value="<%= article.author %>" required>
+
+  <label for="article">Update Article</label>
+  <textarea name="article" id="article" placeholder="Blog content..." required><%= article.article %></textarea>
+
+  <input type="submit" value="Save Changes and Post">
+</form>
+
+<%- include('partials/footer') %>

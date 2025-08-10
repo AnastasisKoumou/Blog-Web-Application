@@ -1,0 +1,24 @@
+<%- include("partials/header.ejs") %>
+
+<div class="container">
+    <div class="box create">
+        <h2>Welcome to myBlog</h2>
+        <p id="box-paragraph">Do you want to create a new article and upload it? <br>
+            Click the "Create" button and share your thoughts!</p>
+        <a href="/create" class="boxBtn">Create Article</a>
+    </div>
+    <div class="box view">
+        <h2>Welcome to myBlog</h2>
+        <p id="box-paragraph">Do you want to view an article? <br>
+            Click the "View" button and check what other users are sharing!</p>
+        <a href="/view" class="boxBtn">View Article</a>
+    </div>
+    <div class="box edit">
+        <h2>Welcome to myBlog</h2>
+        <p id="box-paragraph">Do you want to edit an existing article?<br>
+            Click the "Edit" button and make the changes!</p>
+        <a href="/edit" class="boxBtn">Edit Article</a>
+    </div>
+</div>
+
+<%- include("partials/footer.ejs") %>

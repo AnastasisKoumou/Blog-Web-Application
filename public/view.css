@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.no-articles {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.article-card {
+  background: #ffffff;
+  border: 2px solid #000;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.article-card:hover {
+  transform: scale(1.01);
+}
+
+.card-header {
+  margin-bottom: 10px;
+}
+
+.article-title {
+  margin: 0;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.article-author {
+  margin: 5px 0 0;
+  font-size: 0.95rem;
+  color: #555;
+  font-style: italic;
+}
+
+.date {
+  font-size: 0.85rem;
+  color: gray;
+  margin-top: 10px;
+}
+
+.card-body {
+  margin: 15px 0;
+}
+
+.article-content {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  color: #444;
+}
+
+/* ✅ Responsive adjustments */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px 10px;
+  }
+  .page-title {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
+  .article-card {
+    padding: 15px;
+  }
+  .article-title {
+    font-size: 1.3rem;
+  }
+  .article-content {
+    font-size: 0.95rem;
+    line-height: 1.4rem;
+  }
+}

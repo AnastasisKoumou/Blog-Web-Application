@@ -1,0 +1,26 @@
+<%- include("partials/header.ejs") %>
+
+<link rel="stylesheet" href="/view.css">
+
+<div class="container">
+  <% if (articles.length === 0) { %>
+    <p class="no-articles">No articles uploaded yet.</p>
+  <% } else { %>
+    <div class="article-list">
+      <% articles.forEach(article => { %>
+        <div class="article-card">
+          <div class="card-header">
+            <h2 class="article-title"><%= article.title %></h2>
+            <p class="article-author">By <%= article.author %></p>
+            <p class="date">Uploaded on: <%= article.date %></p>
+          </div>
+          <div class="card-body">
+            <p class="article-content"><%= article.article %></p>
+          </div>
+        </div>
+      <% }) %>
+    </div>
+  <% } %>
+</div>
+
+<%- include("partials/footer.ejs") %>
