@@ -62,7 +62,6 @@ body {
     background-color: #555;
 }
 
-/* ✅ Responsive adjustments */
 @media (max-width: 600px) {
     .article-form {
         margin: 20px;
@@ -78,3 +77,4 @@ body {
         font-size: 1rem;
     }
 }
+
