@@ -101,7 +101,6 @@ body {
   display: inline;
 }
 
-/* ✅ Responsive adjustments */
 @media (max-width: 600px) {
   .container {
     padding: 20px 10px;
@@ -123,3 +122,4 @@ body {
     font-size: 0.95rem;
   }
 }
+
