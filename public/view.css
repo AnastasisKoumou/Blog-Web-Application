@@ -77,7 +77,6 @@ body {
   color: #444;
 }
 
-/* ✅ Responsive adjustments */
 @media (max-width: 600px) {
   .container {
     padding: 20px 10px;
@@ -97,3 +96,4 @@ body {
     line-height: 1.4rem;
   }
 }
+
