@@ -36,15 +36,18 @@ The app will start on --> http://localhost:3000
 ## Images of the Blog
 
 ### Main Page
-![Main Page](<img width="1913" height="945" alt="main_page" src="https://github.com/user-attachments/assets/2d959c07-767c-4c40-8f69-9254d0aaff8d" />
+![Main Page](https://github.com/user-attachments/assets/2d959c07-767c-4c40-8f69-9254d0aaff8d>
 )
 
 ### Create Articles Form
-![Create Articles Form](https://github.com/user-attachments/assets/f9d60884-5dc8-4dd4-80ed-eec376ce22c5)
+![Create Articles Form](https://github.com/user-attachments/assets/71aef429-152d-4ceb-aed9-e833b6f06df6>
+)
 
 ### View Articles Page
-![View Articles Page](https://github.com/user-attachments/assets/79719649-55be-43ca-b7dc-ba0bc6d9b84e)
+![View Articles Page](https://github.com/user-attachments/assets/5a15c50b-806b-40ae-b12f-5ddf9457877a>
+)
 
 ### Edit Page
-![Edit Page](https://github.com/user-attachments/assets/a2bebfbc-2548-4768-8d2d-af1a32eefc7f)
+![Edit Page](https://github.com/user-attachments/assets/4826a2f0-ac7f-4c9f-a1ef-1c116f440e5a>
+)
 
