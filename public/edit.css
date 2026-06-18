@@ -1,100 +1,118 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #f4f4f4;
-  color: #333;
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: #f4f1ea; 
+  color: #4a4a4a;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
 .page-title {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-  color: #222;
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 50px;
+  color: #2c3e50;
+  letter-spacing: -1px;
 }
 
 .no-articles {
   text-align: center;
   font-size: 1.2rem;
-  color: #777;
+  color: #888;
 }
 
 .article-list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 40px;
 }
 
 .article-card {
   background: #ffffff;
-  border: 2px solid #000;
   border-radius: 12px;
-  padding: 20px;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
-}
-
-.article-card:hover {
-  transform: scale(1.01);
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .card-header {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 .article-title {
   margin: 0;
-  font-size: 1.7rem;
-  font-weight: bold;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #2c3e50;
 }
 
 .article-author {
-  margin: 5px 0 0;
+  margin: 8px 0 0;
   font-size: 0.95rem;
-  color: #555;
-  font-style: italic;
+  color: #777;
 }
 
 .date {
   font-size: 0.85rem;
-  color: gray;
-  margin-top: 10px;
+  color: #aaa;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
 }
 
 .card-body {
-  margin: 15px 0;
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
 }
 
 .article-content {
-  font-size: 1rem;
-  line-height: 1.6rem;
-  color: #444;
+  font-family: 'Georgia', 'Merriweather', serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #555;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-footer {
+  display: flex;
+  gap: 12px;
 }
 
 .editBtn {
-  background: transparent;
-  border: 1.5px solid #000;
-  padding: 5px 8px;
-  font-size: 1rem;
+  border: none;
+  padding: 10px 18px;
+  font-size: 0.95rem;
+  font-weight: 600;
   cursor: pointer;
-  transition: background 0.3s ease;
-  border-radius: 5px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+  border-radius: 6px;
 }
 
 .updateBtn {
-    background-color: green;
-    color: white;
+  background-color: #e6f2eb; 
+  color: #235c36;
+}
+
+.updateBtn:hover {
+  background-color: #cde6d6;
 }
 
 .deleteBtn {
-    background-color: red;
-    color: white;
+  background-color: #fce8e8; 
+  color: #8a2a2a;
+}
+
+.deleteBtn:hover {
+  background-color: #f7d2d2;
 }
 
 .card-footer form {
@@ -103,23 +121,18 @@ body {
 
 @media (max-width: 600px) {
   .container {
-    padding: 20px 10px;
+    padding: 30px 15px;
   }
   .page-title {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
+    font-size: 2rem;
   }
   .article-card {
-    padding: 15px;
+    padding: 20px;
   }
-  .article-title {
-    font-size: 1.3rem;
+  .card-footer {
+    flex-direction: column;
   }
   .editBtn {
-    display: block;
     width: 100%;
-    margin-bottom: 8px;
-    font-size: 0.95rem;
   }
 }
-
