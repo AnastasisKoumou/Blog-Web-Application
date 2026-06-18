@@ -1,99 +1,109 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background: #f4f4f4;
-  color: #333;
+  font-family: 'Inter', -apple-system, sans-serif;
+  background: #f4f1ea; /* Warm paper background */
+  color: #4a4a4a;
 }
 
 .container {
-  max-width: 800px;
+  max-width: 750px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
 .page-title {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 40px;
-  color: #222;
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 50px;
+  color: #2c3e50; 
+  letter-spacing: -1px;
 }
 
 .no-articles {
   text-align: center;
   font-size: 1.2rem;
-  color: #777;
+  color: #888;
+  font-style: italic;
 }
 
 .article-list {
   display: flex;
   flex-direction: column;
-  gap: 30px;
+  gap: 50px;
 }
 
 .article-card {
   background: #ffffff;
-  border: 2px solid #000;
   border-radius: 12px;
-  padding: 20px;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.2s ease;
+  border-top: 6px solid #3a7ca5; /* Accent border */
+  padding: 40px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
 }
 
 .article-card:hover {
-  transform: scale(1.01);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
 
 .card-header {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 20px;
 }
 
 .article-title {
-  margin: 0;
-  font-size: 1.7rem;
-  font-weight: bold;
+  margin: 0 0 10px 0;
+  font-size: 2.2rem;
+  font-weight: 800;
+  color: #2c3e50;
+  line-height: 1.2;
 }
 
 .article-author {
-  margin: 5px 0 0;
-  font-size: 0.95rem;
-  color: #555;
-  font-style: italic;
+  margin: 0;
+  font-size: 1rem;
+  color: #666;
+  font-weight: 600;
 }
 
 .date {
   font-size: 0.85rem;
-  color: gray;
-  margin-top: 10px;
+  color: #999;
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
 .card-body {
-  margin: 15px 0;
+  margin: 25px 0 0 0;
 }
 
 .article-content {
-  font-size: 1rem;
-  line-height: 1.6rem;
-  color: #444;
+  font-family: 'Georgia', 'Merriweather', serif;
+  font-size: 1.15rem;
+  line-height: 1.9;
+  color: #333;
+  white-space: pre-wrap;
 }
 
 @media (max-width: 600px) {
   .container {
-    padding: 20px 10px;
+    padding: 30px 15px;
   }
   .page-title {
-    font-size: 1.8rem;
-    margin-bottom: 20px;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
   }
   .article-card {
-    padding: 15px;
+    padding: 25px;
   }
   .article-title {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
   }
   .article-content {
-    font-size: 0.95rem;
-    line-height: 1.4rem;
+    font-size: 1.05rem;
   }
 }
 
